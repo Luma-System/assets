@@ -1,26 +1,68 @@
+@font-face {
+   font-family: "mef2";
+   src: url(https://cdn.jsdelivr.net/gh/Luma-System/assets@main/MEF2.ttf) format("truetype");
+ }
+
  @font-face {
-    font-family: "mef2";
-    src: url(https://cdn.jsdelivr.net/gh/Luma-System/assets@main/MEF2.ttf) format("truetype");
-  }
+   font-family: "mef1";
+   src: url(https://cdn.jsdelivr.net/gh/Luma-System/assets@main/MEF1.ttf) format("truetype");
+ }
 
-  @font-face {
-    font-family: "mef1";
-    src: url(https://cdn.jsdelivr.net/gh/Luma-System/assets@main/MEF1.ttf) format("truetype");
-  }
+ @font-face {
+   font-family: "tacteng";
+   src: url(https://cdn.jsdelivr.net/gh/Luma-System/assets@main/TACTENG.ttf) format("truetype");
+ }
 
-  @font-face {
-    font-family: "tacteng";
-    src: url(https://cdn.jsdelivr.net/gh/Luma-System/assets@main/TACTENG.ttf) format("truetype");
-  }
+ .font-mef2 {
+   font-family: "mef2";
+ }
 
-  .font-mef2 {
-    font-family: "mef2";
-  }
+ .font-mef1 {
+   font-family: "mef1";
+ }
 
-  .font-mef1 {
-    font-family: "mef1";
-  }
+ .font-tacteng {
+   font-family: "tacteng";
+ }
 
-  .font-tacteng {
-    font-family: "tacteng";
-  }
+.a4-landscape {
+  width: 210mm;
+  height: 297mm;
+  margin: 0;
+  padding: 0;
+}
+
+.a4-portrait {
+  width: 297mm;
+  height: 210mm;
+  margin: 0;
+  padding: 0;
+}
+
+.a3-landscape {
+  width: 297mm;
+  height: 420mm;
+  margin: 0;
+  padding: 0;
+}
+
+.a3-portrait {
+  width: 420mm;
+  height: 297mm;
+  margin: 0;
+  padding: 0;
+}
+
+.a0-landscape {
+  width: 1189mm;
+  height: 1682mm;
+  margin: 0;
+  padding: 0;
+}
+
+.a0-portrait {
+  width: 1682mm;
+  height: 1189mm;
+  margin: 0;
+  padding: 0;
+}
