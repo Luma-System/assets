@@ -1,3 +1,26 @@
-.font-mef2 {
-  color: brown;
-}
+ @font-face {
+    font-family: "mef2";
+    src: url(https://cdn.jsdelivr.net/gh/Luma-System/assets@main/MEF2.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "mef1";
+    src: url(https://cdn.jsdelivr.net/gh/Luma-System/assets@main/MEF1.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "tacteng";
+    src: url(https://cdn.jsdelivr.net/gh/Luma-System/assets@main/TACTENG.ttf) format("truetype");
+  }
+
+  .font-mef2 {
+    font-family: "mef2";
+  }
+
+  .font-mef1 {
+    font-family: "mef1";
+  }
+
+  .font-tacteng {
+    font-family: "tacteng";
+  }
